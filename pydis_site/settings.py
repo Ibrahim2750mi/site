@@ -301,6 +301,22 @@ BULMA_SETTINGS = {
         "footer-padding": "1rem 1.5rem 1rem",
         "tooltip-max-width": "30rem",
     },
+    "dark_variables": {
+        "primary": "#8E70D8",    # Discord blurple
+        "green": "#85d870",      # Colour picked after Discord discussion
+        "turquoise": "#8E70D8",  # Blurple, because Bulma uses this regardless of `primary` above
+        "blue": "#70bbd8",       # Colour picked after Discord discussion
+        "cyan": "#70bbd8",       # Colour picked after Discord discussion (matches the blue)
+        "purple": "#85d870",     # Apparently unused, but changed for consistency
+        "red": "#85d870",        # Colour picked after Discord discussion
+
+        "link": "$primary",
+
+        "dimensions": "16 24 32 48 64 96 128 256 512",  # Possible image dimensions
+        "navbar-height": "4.75rem",
+        "footer-padding": "1rem 1.5rem 1rem",
+        "tooltip-max-width": "30rem",
+    },
     "extensions": [
         "bulma-dropdown",
         "bulma-navbar-burger",

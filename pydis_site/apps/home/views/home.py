@@ -157,7 +157,8 @@ class HomeView(View):
     def get(self, request: WSGIRequest) -> HttpResponse:
         """Collect repo data and render the homepage view."""
         repo_data = self._get_repo_data()
-        return render(request, "home/index.html", {"repo_data": repo_data})
+        print(request.COOKIES)
+        return render(request, "home/index.html", {"repo_data": repo_data, "user_theme": request.COOKIES['theme']})
 
 
 def timeline(request: WSGIRequest) -> HttpResponse:

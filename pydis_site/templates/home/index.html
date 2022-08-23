@@ -1,8 +1,10 @@
 {% extends 'base/base.html' %}
+{% load django_simple_bulma %}
 {% load static %}
 
 {% block title %}Home{% endblock %}
 {% block head %}
+{% bulma user_theme %}
   <link rel="stylesheet" href="{% static "css/home/index.css" %}">
 {% endblock %}
 
