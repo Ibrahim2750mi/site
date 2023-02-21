@@ -16,6 +16,7 @@ The following variables are needed for running Sir Lancebot:
 | `CHANNEL_DEVLOG` | ID of the #dev-log channel |
 | `CHANNEL_COMMUNITY_BOT_COMMANDS` | ID of the #sir-lancebot-commands channel |
 | `CHANNEL_REDDIT` | ID of the #reddit channel |
+| `TRASHCAN_EMOJI` | Name and ID of a trashcan emoji, format: `<:trashcan:637136429717389331>`|
 
 ---
 ## Debug Variables

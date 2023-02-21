@@ -81,6 +81,7 @@ The following variables are needed for running Sir Lancebot:
 | `CHANNEL_ANNOUNCEMENTS` | ID of the `#announcements` channel |
 | `CHANNEL_DEVLOG` | ID of the `#dev-log` channel |
 | `CHANNEL_COMMUNITY_BOT_COMMANDS` | ID of the `#sir-lancebot-commands` channel |
+| `TRASHCAN_EMOJI` | Name and ID of a trashcan emoji, format: `<:trashcan:637136429717389331>`|
 
 [**Full environment variable reference for this project.**](./env-var-reference)
 
